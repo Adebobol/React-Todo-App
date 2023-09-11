@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Pacifico&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body,
+html {
+  background-color: white;
+  font-weight: 400;
+}
+
+.app {
+  display: flex;
+  height: calc(100vh - 40px);
+  padding: 20px 90px;
+  /* gap: 20px; */
+}
+
+input {
+  border: none;
+  outline: none;
+  /* width: 25rem; */
+  width: 100%;
+  height: 2rem;
+}
+
+#date {
+  width: 32rem;
+  height: 2rem;
+}
+
+.formLabel {
+  font-size: 20px;
+}
+
+.formEach {
+  margin-top: 2rem;
+}
+
+.addTask {
+  font-family: "Pacifico", cursive;
+  width: 50%;
+  background-color: gainsboro;
+  position: relative;
+}
+
+.addTaskInner {
+  margin: 20px;
+  /* position: relative; */
+  /* width: 50%; */
+}
+
+.addTodoNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addTodoMessage {
+  /* text-align: center; */
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.addTaskButton {
+  background-color: rgb(82, 82, 230);
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 100%;
+}
+
+.todoForm {
+  width: 50%;
+  background-color: gainsboro;
+  font-family: "Abel", sans-serif;
+}
+
+.todoFormInner {
+  position: relative;
+  margin: 40px;
+}
+
+.todoFormButton {
+  position: absolute;
+  border: none;
+  margin-top: 20px;
+  background-color: rgb(87, 87, 236);
+  width: 40px;
+  height: 20px;
+  right: 0;
+}
+
+.todoPage {
+  background-color: rgb(228, 156, 168);
+  width: 50%;
+  font-family: "Abel", sans-serif;
+  position: relative;
+}
+
+.todoPageInner {
+  margin: 40px;
+  /* position: relative; */
+}
+
+.todoPageNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todoPageMessage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.todoEach {
+  background-color: gainsboro;
+  font-size: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 7px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
